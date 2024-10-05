@@ -2,6 +2,36 @@
     "allowCustomDataForDataTypeAny": true,
     "functions": [
         {
+            "description": "Converts Sorani Kurdish text to Latin script.",
+            "id": "SORANI_TO_LATIN",
+            "name": "SORANI_TO_LATIN",
+            "parameters": [
+                {
+                    "description": "Sorani Kurdish text to convert",
+                    "name": "text",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Converts Latin script to Sorani Kurdish text.",
+            "id": "LATIN_TO_SORANI",
+            "name": "LATIN_TO_SORANI",
+            "parameters": [
+                {
+                    "description": "Latin script text to convert",
+                    "name": "text",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
             "description": "Adds two numbers.",
             "id": "ADD",
             "name": "ADD",
